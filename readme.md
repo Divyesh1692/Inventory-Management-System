@@ -6,6 +6,10 @@ The Inventory Management System is a Node.js application designed to efficiently
 
 ---
 
+## Vercel Deployment Url
+
+https://inventory-management-system-tawny.vercel.app/
+
 ## Features
 
 1. **Inventory Management:**
