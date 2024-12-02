@@ -15,6 +15,12 @@ app.use("/items", itemRouter);
 app.use("/suppliers", supplierRouter);
 
 connectDB();
-app.listen(PORT, () => {
-  console.log(`listening on ${PORT}`);
+
+app.get("/", (req, res) => {
+  res.send("Welcome to inventory management system");
 });
+// app.listen(PORT, () => {
+//   console.log(`listening on ${PORT}`);
+// });
+
+module.exports = app;
